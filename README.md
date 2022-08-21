@@ -9,7 +9,7 @@ Imagine that you wan't to know with which arguments called `C:\Program Files\foo
 3. Create file `foo.cmd_args_logger.json` in same folder. With content:
 ```json
 {
-  exeToRun:"real_foo.exe"
+  "exeToRun":"real_foo.exe"
 }
 ```
 4. Initiate call of `foo.exe` in another program.

@@ -9,5 +9,7 @@ namespace CmdArgsLogger
     internal class RunOptions
     {
         public string ExeToRun { get; set; }
+
+        public bool IncludeEnvVariablesToLog { get; set; }
     }
 }
